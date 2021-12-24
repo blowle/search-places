@@ -13,6 +13,14 @@
 		C9F05D7527760BBF00B189C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F05D7327760BBF00B189C4 /* Main.storyboard */; };
 		C9F05D7727760BC000B189C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F05D7627760BC000B189C4 /* Assets.xcassets */; };
 		C9F05D7A27760BC000B189C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F05D7827760BC000B189C4 /* LaunchScreen.storyboard */; };
+		C9F05D8D2776106300B189C4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D8C2776106300B189C4 /* OpenGLES.framework */; };
+		C9F05D8F2776107600B189C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D8E2776107600B189C4 /* SystemConfiguration.framework */; };
+		C9F05D912776107E00B189C4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D902776107E00B189C4 /* CoreLocation.framework */; };
+		C9F05D932776108B00B189C4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D922776108B00B189C4 /* QuartzCore.framework */; };
+		C9F05D952776109A00B189C4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D942776109A00B189C4 /* libc++.tbd */; };
+		C9F05D97277610A700B189C4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D96277610A700B189C4 /* libxml2.tbd */; };
+		C9F05D99277610AE00B189C4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D98277610AE00B189C4 /* libsqlite3.tbd */; };
+		C9F05D9D277611A300B189C4 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D9B2776116D00B189C4 /* DaumMap.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,17 @@
 		C9F05D7627760BC000B189C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F05D7927760BC000B189C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F05D7B27760BC000B189C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9F05D8427760EFE00B189C4 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		C9F05D8727760FFB00B189C4 /* DaumMap.embeddedframework */ = {isa = PBXFileReference; lastKnownFileType = folder; path = DaumMap.embeddedframework; sourceTree = "<group>"; };
+		C9F05D892776100200B189C4 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C9F05D8C2776106300B189C4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C9F05D8E2776107600B189C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C9F05D902776107E00B189C4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C9F05D922776108B00B189C4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C9F05D942776109A00B189C4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C9F05D96277610A700B189C4 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		C9F05D98277610AE00B189C4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C9F05D9B2776116D00B189C4 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = DaumMap.embeddedframework/DaumMap.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F05D99277610AE00B189C4 /* libsqlite3.tbd in Frameworks */,
+				C9F05D97277610A700B189C4 /* libxml2.tbd in Frameworks */,
+				C9F05D9D277611A300B189C4 /* DaumMap.framework in Frameworks */,
+				C9F05D952776109A00B189C4 /* libc++.tbd in Frameworks */,
+				C9F05D932776108B00B189C4 /* QuartzCore.framework in Frameworks */,
+				C9F05D912776107E00B189C4 /* CoreLocation.framework in Frameworks */,
+				C9F05D8F2776107600B189C4 /* SystemConfiguration.framework in Frameworks */,
+				C9F05D8D2776106300B189C4 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,7 @@
 			children = (
 				C9F05D6C27760BBF00B189C4 /* FindPlaces */,
 				C9F05D6B27760BBF00B189C4 /* Products */,
+				C9F05D8127760E9400B189C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +84,7 @@
 		C9F05D6C27760BBF00B189C4 /* FindPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				C9F05D8427760EFE00B189C4 /* BridgingHeader.h */,
 				C9F05D6D27760BBF00B189C4 /* AppDelegate.swift */,
 				C9F05D6F27760BBF00B189C4 /* SceneDelegate.swift */,
 				C9F05D7127760BBF00B189C4 /* ViewController.swift */,
@@ -65,6 +94,23 @@
 				C9F05D7B27760BC000B189C4 /* Info.plist */,
 			);
 			path = FindPlaces;
+			sourceTree = "<group>";
+		};
+		C9F05D8127760E9400B189C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F05D9B2776116D00B189C4 /* DaumMap.framework */,
+				C9F05D98277610AE00B189C4 /* libsqlite3.tbd */,
+				C9F05D96277610A700B189C4 /* libxml2.tbd */,
+				C9F05D942776109A00B189C4 /* libc++.tbd */,
+				C9F05D922776108B00B189C4 /* QuartzCore.framework */,
+				C9F05D902776107E00B189C4 /* CoreLocation.framework */,
+				C9F05D8E2776107600B189C4 /* SystemConfiguration.framework */,
+				C9F05D8C2776106300B189C4 /* OpenGLES.framework */,
+				C9F05D892776100200B189C4 /* AssetsLibrary.framework */,
+				C9F05D8727760FFB00B189C4 /* DaumMap.embeddedframework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +336,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U4T3R7AY6X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FindPlaces/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -305,6 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyc.FindPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/yongcheollee/Desktop/FindPlaces/FindPlaces/BridgingHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +369,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = U4T3R7AY6X;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DaumMap.embeddedframework",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FindPlaces/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,6 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lyc.FindPlaces;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/yongcheollee/Desktop/FindPlaces/FindPlaces/BridgingHeader.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
