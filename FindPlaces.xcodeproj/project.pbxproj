@@ -21,6 +21,10 @@
 		C9F05D97277610A700B189C4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D96277610A700B189C4 /* libxml2.tbd */; };
 		C9F05D99277610AE00B189C4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D98277610AE00B189C4 /* libsqlite3.tbd */; };
 		C9F05D9D277611A300B189C4 /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F05D9B2776116D00B189C4 /* DaumMap.framework */; };
+		C9F05DA22776144F00B189C4 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F05DA12776144F00B189C4 /* LocationData.swift */; };
+		C9F05DA52776166E00B189C4 /* KLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F05DA42776166E00B189C4 /* KLDocument.swift */; };
+		C9F05DA7277616F000B189C4 /* DetailListCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F05DA6277616F000B189C4 /* DetailListCellData.swift */; };
+		C9F05DA92776185700B189C4 /* LocationInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F05DA82776185700B189C4 /* LocationInformationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +47,10 @@
 		C9F05D96277610A700B189C4 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		C9F05D98277610AE00B189C4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C9F05D9B2776116D00B189C4 /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DaumMap.framework; path = DaumMap.embeddedframework/DaumMap.framework; sourceTree = "<group>"; };
+		C9F05DA12776144F00B189C4 /* LocationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		C9F05DA42776166E00B189C4 /* KLDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLDocument.swift; sourceTree = "<group>"; };
+		C9F05DA6277616F000B189C4 /* DetailListCellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailListCellData.swift; sourceTree = "<group>"; };
+		C9F05DA82776185700B189C4 /* LocationInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +95,9 @@
 				C9F05D8427760EFE00B189C4 /* BridgingHeader.h */,
 				C9F05D6D27760BBF00B189C4 /* AppDelegate.swift */,
 				C9F05D6F27760BBF00B189C4 /* SceneDelegate.swift */,
+				C9F05DAA2776188700B189C4 /* Presentation */,
 				C9F05D7127760BBF00B189C4 /* ViewController.swift */,
+				C9F05DA32776145500B189C4 /* Entities */,
 				C9F05D7327760BBF00B189C4 /* Main.storyboard */,
 				C9F05D7627760BC000B189C4 /* Assets.xcassets */,
 				C9F05D7827760BC000B189C4 /* LaunchScreen.storyboard */,
@@ -111,6 +121,24 @@
 				C9F05D8727760FFB00B189C4 /* DaumMap.embeddedframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9F05DA32776145500B189C4 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				C9F05DA12776144F00B189C4 /* LocationData.swift */,
+				C9F05DA42776166E00B189C4 /* KLDocument.swift */,
+				C9F05DA6277616F000B189C4 /* DetailListCellData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		C9F05DAA2776188700B189C4 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				C9F05DA82776185700B189C4 /* LocationInformationVC.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,8 +212,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F05DA22776144F00B189C4 /* LocationData.swift in Sources */,
+				C9F05DA52776166E00B189C4 /* KLDocument.swift in Sources */,
+				C9F05DA92776185700B189C4 /* LocationInformationVC.swift in Sources */,
 				C9F05D7227760BBF00B189C4 /* ViewController.swift in Sources */,
 				C9F05D6E27760BBF00B189C4 /* AppDelegate.swift in Sources */,
+				C9F05DA7277616F000B189C4 /* DetailListCellData.swift in Sources */,
 				C9F05D7027760BBF00B189C4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,7 +376,6 @@
 				INFOPLIST_FILE = FindPlaces/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -377,7 +408,6 @@
 				INFOPLIST_FILE = FindPlaces/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
