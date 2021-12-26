@@ -18,8 +18,8 @@ struct KLDocument: Decodable {
     let placeName: String?
     let placeUrl: String?
     let roadAddressName: String?
-    let x: String?
-    let y: String?
+    let x: String
+    let y: String
     
     enum CodingKeys: String, CodingKey {
         case addressName = "address_name"
