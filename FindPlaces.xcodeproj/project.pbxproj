@@ -56,6 +56,7 @@
 		C9B99957277B6C560084CFF6 /* networkDummy.json in Resources */ = {isa = PBXBuildFile; fileRef = C9B99956277B6C560084CFF6 /* networkDummy.json */; };
 		C9B99959277B6CC50084CFF6 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B99958277B6CC50084CFF6 /* Dummy.swift */; };
 		C9B9995B277B6E240084CFF6 /* LocationInformationModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9995A277B6E240084CFF6 /* LocationInformationModelTests.swift */; };
+		C9B9995D277B72160084CFF6 /* LocationInformationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B9995C277B72160084CFF6 /* LocationInformationViewModelTests.swift */; };
 		C9F05D6E27760BBF00B189C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F05D6D27760BBF00B189C4 /* AppDelegate.swift */; };
 		C9F05D7027760BBF00B189C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F05D6F27760BBF00B189C4 /* SceneDelegate.swift */; };
 		C9F05D7727760BC000B189C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F05D7627760BC000B189C4 /* Assets.xcassets */; };
@@ -140,6 +141,7 @@
 		C9B99956277B6C560084CFF6 /* networkDummy.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = networkDummy.json; sourceTree = "<group>"; };
 		C9B99958277B6CC50084CFF6 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		C9B9995A277B6E240084CFF6 /* LocationInformationModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationModelTests.swift; sourceTree = "<group>"; };
+		C9B9995C277B72160084CFF6 /* LocationInformationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInformationViewModelTests.swift; sourceTree = "<group>"; };
 		C9F05D6A27760BBF00B189C4 /* FindPlaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindPlaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F05D6D27760BBF00B189C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9F05D6F27760BBF00B189C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -279,6 +281,7 @@
 				C9B99956277B6C560084CFF6 /* networkDummy.json */,
 				C9B99958277B6CC50084CFF6 /* Dummy.swift */,
 				C9B9995A277B6E240084CFF6 /* LocationInformationModelTests.swift */,
+				C9B9995C277B72160084CFF6 /* LocationInformationViewModelTests.swift */,
 			);
 			path = FindPlacesTests;
 			sourceTree = "<group>";
@@ -572,6 +575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B9995D277B72160084CFF6 /* LocationInformationViewModelTests.swift in Sources */,
 				C9B99959277B6CC50084CFF6 /* Dummy.swift in Sources */,
 				C9B99955277B6AB90084CFF6 /* LocalNetworkStub.swift in Sources */,
 				C9B9995B277B6E240084CFF6 /* LocationInformationModelTests.swift in Sources */,
