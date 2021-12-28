@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '14.4'
+# platform :ios, '9.0'
 
 target 'FindPlaces' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -9,4 +9,14 @@ target 'FindPlaces' do
   pod 'SnapKit', '~> 5.0.0'
   pod 'RxSwift', '6.2.0'
   pod 'RxCocoa', '6.2.0'
+
+  target 'FindPlacesTests' do
+    inherit! :search_paths
+    pod 'Stubber'
+    pod 'Nimble'
+    pod 'RxBlocking'
+    pod 'RxTest'
+  end
 end
+
+
